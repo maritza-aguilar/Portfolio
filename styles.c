@@ -24,17 +24,11 @@ h1{
 p{
     line-height: 1.5;
     font-size: 16px;
-    animation: fade-up 650ms 400ms backwards;
 }
 
 a{
     text-decoration: none;
     position: relative;
-    transition: opacity 300ms ease;
-}
-
-i:hover{
-    opacity: 0.7;
 }
 
 .link__hover-effect:after{
@@ -184,14 +178,13 @@ nav {
 }
 .about-me__links{
     margin-top: 16px;
-    animation: fade-up 650ms 400ms backwards;
-
 }
 .about-me__link{
     font-size: 20px;
     color: #ff69b4;
     text-decoration: none;
     padding: 0 16px;
+    animation: fade-up 650ms 400ms backwards;
 }
 
 .about-me__link:hover{
@@ -226,16 +219,6 @@ nav {
 .about-me__img{
     height: 450px;
     width: 100%
-}
-
-@keyframes fade-in{
-    0%{
-        opacity:0;
-    }
-    100%{
-        opacity: 1;
-    }
-
 }
 
 .about-me__img--container{
