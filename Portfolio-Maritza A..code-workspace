@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Portfolio-Maritza A."
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio-Maritza A.",
+		"liveServer.settings.port": 5501
 	}
 }
